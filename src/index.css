@@ -15,6 +15,7 @@
   --font-serif: "DM Serif Text", serif;
 }
 
+
 html,
 body {
   width: 100%;
@@ -22,6 +23,7 @@ body {
   color: white;
   scroll-behavior: smooth;
   overflow-x: hidden;
+  scrollbar-width: none;
 }
 
 @utility flex-center {
@@ -90,7 +92,7 @@ body {
     @apply relative z-10 min-h-dvh w-full border border-transparent;
 
     h1 {
-      @apply md:mt-32 mt-40 text-8xl md:text-[20vw] leading-none text-center font-modern-negra;
+      @apply md:mt-32 mt-40 text-8xl md:text-[20vw] leading-none text-center font-modern-negra uppercase;
     }
 
     .left-leaf {
